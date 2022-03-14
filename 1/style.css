@@ -91,7 +91,8 @@ body{
 .indicator::before{
     content: "";
     position: absolute;
-    background: transparent;
+    /*background: red;*/
+    z-index: 9999;
     width: 15px;
     height: 15px;
     top: 30px;
